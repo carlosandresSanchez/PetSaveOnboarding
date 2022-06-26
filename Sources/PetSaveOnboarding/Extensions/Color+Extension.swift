@@ -35,10 +35,10 @@ import SwiftUI
 
 extension Color {
   static var rwGreen: Color {
-    Color("rw-green", bundle: .module)
+      Color("rw-green", bundle: Bundle.module)
   }
   
   static var rwDark: Color {
-    Color("rw-dark", bundle: .module)
+    Color("rw-dark", bundle: Bundle.module)
   }
 }
